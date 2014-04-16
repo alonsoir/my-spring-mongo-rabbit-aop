@@ -1,8 +1,3 @@
 a test project with mongo, jpa, rabbit, aop, all mixed with spring
 
-If i try to deploy, it gives me some errors:
-
-Caused by: 
-org.springframework.beans.factory.NoSuchBeanDefinitionException: 
-No qualifying bean of type [com.aironman.my_spring_mongo_rabbit_aop.repository.mongo.IErrorLogRepository] found for dependency: 
-expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+first commit, ItemsServiceTest is green
