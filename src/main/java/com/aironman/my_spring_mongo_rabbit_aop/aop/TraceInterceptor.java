@@ -7,6 +7,8 @@ import org.springframework.aop.interceptor.CustomizableTraceInterceptor;
 
 /**
  * Extends {@link CustomizableTraceInterceptor} to provide custom logging levels
+ * Every concern traced by customizableTraceInterceptor in trace-context.xml are going
+ * to execute this methods every access to scaned class, a inteceptor.
  *
  */
 public class TraceInterceptor extends CustomizableTraceInterceptor {

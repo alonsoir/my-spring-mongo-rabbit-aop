@@ -1,4 +1,13 @@
-a test project with mongo, jpa, rabbit, aop, all mixed with spring, forked from krams, i added some things related with Items, a new service, a new repository, jsps, some tests...
+A test project with mongo, jpa, rabbit, aop, all mixed with spring, forked from @krams,
+i added some things related with Items, a new service, a new repository, jsps, some tests...
+
+The idea is to mix different layers with differents connectors like jpa/mysql or 
+some broker message like rabbitmq or a simple connection to mongo db server, 
+all everything mixed with spring project.
+That layers are,first at all, some aop concerns necessary to store events or loggin aspect,
+some controllers using REST style archicture, some services, jpa repositories and mongo itself.
+Also domain objects for mongo and jpa access and dto objects between controller layer 
+are necessary. 
 
 Pre requisites:
 
@@ -8,11 +17,12 @@ Pre requisites:
 	For mongo, just go to http://www.mongodb.org/downloads, install and execute mongod daemon. 
 
 Installation
-
-	You can do
 	 mvn clean install jetty:run 
-	in order to compile and execute it on a jetty server.
+in order to compile and execute it on a jetty server.
 	
 Execution
 
 	go to localhost:8080/events
+	
+https://github.com/alonsoir/my-spring-mongo-rabbit-aop
+
