@@ -23,6 +23,3 @@ in order to compile and execute it on a jetty server.
 Execution
 
 	go to localhost:8080/events
-	
-https://github.com/alonsoir/my-spring-mongo-rabbit-aop
-
